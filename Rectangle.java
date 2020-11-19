@@ -4,10 +4,18 @@ int l,b;
 Rectangle()
 {
 	l=10;
-	b=20;
+	b=30;
 }
-	void area()
-	{
-		System.out.println("Area of Rectangle="+(l*b));
+	
+	void area() {
+		System.out.println("Area="+(l*b));
+		
 	}
+
+	@Override
+	void m1() {
+		System.out.println("In Rectangle m1()");
+		
+	}
+
 }

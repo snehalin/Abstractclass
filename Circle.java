@@ -1,12 +1,15 @@
 
-public class Circle extends Shape{
-int radius;
+abstract public class Circle extends Shape {
+int r;
 Circle()
 {
-	radius=10;
+	r=10;
 }
- void area()
- {
-	 System.out.println("Area of Circle="+(3.14*radius*radius));
- }
+	
+void area()
+{
+	System.out.println("Area="+(3.14*r*r));
+}
+//abstract void m1();
+
 }
