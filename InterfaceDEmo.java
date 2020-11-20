@@ -15,4 +15,12 @@
  */
 public class InterfaceDEmo {
 
+	public static void main(String args[])
+	{
+		Child2 ob=new Child2();
+		ob.m33();//Child2
+		Child3 ob1=new Child3();
+		ob1.m33();// NewInterface
+		NewInteface.m4();
+	}
 }
